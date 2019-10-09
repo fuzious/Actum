@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Person 1</title>
+    <!-- <link rel="shortcut icon" href="./logo.png"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="WebRTC getUserMedia MediaRecorder API">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>ActUm</title>
+</head>
+
+<style>
+    h1 {
+        margin: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    body {
+        width: 90%;
+        max-width: 960px;
+        margin: 0px auto;
+        background-color: rgb(71, 136, 135);
+    }
+
+    input {
+        background-color: white;
+        width: 20%;
+        height: 40px;
+        display: inline-block;
+        border-radius: 36px;
+    }
+
+    button {
+        background-color: #8842d5;
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        margin: 5px 4px;
+        cursor: pointer;
+    }
+
+    h3 {
+        margin-left: 20%;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-spacing: 0.5rem;
+        padding: 0.5rem;
+    }
+</style>
+
+<body>
+    <h1>1st User</h1>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div>
+            {{form.as_p}}
+        </div>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+    <!-- <div class="new">
+        <ul class="message">
+            {% for i in msg %}
+            <h1>
+                {{i}}
+            </h1>
+            {% endfor %}
+        </ul>
+    </div> -->
+    <table>
+        <tr>
+            <th>User</th>
+            <th>Other Person</th>
+        </tr>
+        {% for i in msg %}
+        <tr>
+            <td>{{i.0}}</td>
+            <td>{{i.1}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+<script>
+    // var arr = "{{x}}"
+    // for (i = 0; i < arr.length; i++) {
+    //     console.log(arr[i])
+    // };
+</script>
+
+</html>
