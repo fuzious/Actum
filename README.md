@@ -1,9 +1,12 @@
-<p align="center"><img src="logo.jpg" align="center" width="175"></p>
-<h1 align="center">Actum</h1>
+<p align="center"><img src="https://image.flaticon.com/icons/svg/2036/2036962.svg" align="center" width="175"></p>
 <p align="center">
-  <img width="155" height="55" src="https://forthebadge.com/images/badges/built-with-love.svg">
+  <a href="https://github.com/BakaOtaku/Actum/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/BakaOtaku/Actum"></a>
+  <a href="https://github.com/BakaOtaku/Actum/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BakaOtaku/Actum"></a>
+  <a href="https://github.com/BakaOtaku/Actum/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/BakaOtaku/Actum"></a>
+  <a href="https://github.com/BakaOtaku/Actum"><img alt="GitHub license" src="https://img.shields.io/github/license/BakaOtaku/Actum"></a>
+  <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FBakaOtaku%2FActum"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FAmanRaj1608"></a>
 </p>
-<hr>
+<h1 align="center">Actum</h1>
 <p align="center"><b>Because Action speaks louder than Words</b>
 </p>
 
